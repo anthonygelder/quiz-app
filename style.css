@@ -1,5 +1,5 @@
 * {
-    /* border: solid 2px black; */
+    border: solid 1px black;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,9 +12,56 @@ section {
 main {
     height: 80%;
     width: 80%;
-    margin: 0 auto;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 header {
     display: flex;
+    justify-content: flex-start;
+    height: 80px;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: monospace;
+    text-shadow: 4px 4px forestgreen;
+    color: darkslateblue;
+    margin: 0 8px;
+}
+
+p {
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+    margin: 40px;
+    padding: 15px;
+    font-size: 2rem;
+}
+
+main p {
+    margin: 20px;
+}
+
+form ul {
+    columns: 2;
+}
+
+form ul li {
+    padding: 20px;
+    font-size: 2rem;
+}
+
+label {
+    padding: 20px;
+    width: 100vw;
 }
